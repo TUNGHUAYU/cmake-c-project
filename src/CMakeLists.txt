@@ -17,7 +17,7 @@ set_target_properties(add-shared
     PROPERTIES
         VERSION ${PROJECT_VERSION}
         OUTPUT_NAME "my_add"
-        PUBLIC_HEADER "$add.h"
+        PUBLIC_HEADER "${CMAKE_CURRENT_SOURCE_DIR}/add.h"
         DEBUG_POSTFIX "_d"
         RELEASE_POSTFIX "_r"    
 )
@@ -32,7 +32,7 @@ set_target_properties(add-static
     PROPERTIES
         VERSION ${PROJECT_VERSION}
         OUTPUT_NAME "my_add"
-        PUBLIC_HEADER "$add.h"
+        PUBLIC_HEADER "${CMAKE_CURRENT_SOURCE_DIR}/add.h"
         DEBUG_POSTFIX "_d"
         RELEASE_POSTFIX "_r"
 )

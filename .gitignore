@@ -3,4 +3,5 @@
 # doxygen html ( it will be generate by building work )
 doc/doxygen/html/
 
-
+# build folder
+build/
