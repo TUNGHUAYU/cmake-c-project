@@ -1,0 +1,6 @@
+# Don't Trace below items 
+
+# doxygen html ( it will be generate by building work )
+doc/doxygen/html/
+
+
