@@ -13,6 +13,7 @@ install(
         add-objs
         add-shared
         add-static
+        test_add_app
     ARCHIVE
         DESTINATION ${INSTALL_LIBDIR}
         COMPONENT lib

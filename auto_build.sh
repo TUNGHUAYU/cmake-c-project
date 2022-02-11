@@ -30,4 +30,4 @@ make
 
 make install
 
-# ctest
+ctest
