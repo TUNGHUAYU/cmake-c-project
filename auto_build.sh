@@ -31,3 +31,7 @@ make
 make install
 
 ctest
+
+# doxygen
+cd ${origin_pwd}/doc/doxygen
+doxygen Doxyfile
